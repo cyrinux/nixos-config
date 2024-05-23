@@ -1,0 +1,32 @@
+temp/
+
+#########################
+# Exclude most dotfiles #
+#########################
+.cache/
+.icons/
+# backup fish folder (for history)
++ /.local/share/fish/***
++ /.local/
++ /.local/share/
+/.local/share/*
+/.local/*
+
+#############
+# Languages #
+#############
+**/*.direnv/
+**/.julia/
+.mypy_cache/
+**/*node_modules/
+.npm/
+*.o
+__pycache__
+**/venv/
+
+########
+# Misc #
+########
+.mozilla/firefox.cyril.storage/default/https+++app.slack.com/
+.pki/
+.wget-hsts
